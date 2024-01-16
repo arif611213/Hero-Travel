@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 50px auto;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section .logo-img {
+    margin-right: 20px;
+}
+
+.menu-section ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-section ul li {
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+.menu-section ul li a {
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.menu-section ul li:first-child:active {
+    color: #FF5400;
+}
+
+.menu-section .menu {
+    display: none;
+}
+
+
+
+/* Banner Section CSS Start Here */
+.banner-bg {
+    background-image: url(/Images/banner.png);
+    width: 1250px;
+    height: 523px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.banner-overlay {
+    background-color: rgba(0, 0, 0, 0.384);
+    height: 523px;
+    border-radius: 17px;
+}
+
+.banner-text {
+    padding-top: 85px;
+    color: #fff;
+}
+
+.banner-text h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-text p {
+    width: 590px;
+    margin: 0 auto;
+    padding: 22px 0px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.form input {
+    width: 170px;
+    height: 45px;
+    padding: 0px 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.form .select-item {
+    width: 170px;
+    height: 45px;
+    padding: 0px 18px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form .search-btn {
+    width: 170px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #fff;
+    font-size: 16px;
+}
+
+.form {
+    background-color: #ffffff3d;
+    width: 850px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    border-radius: 5px;
+    border: dotted #fff;
+    border-width: 2px;
+}
+
+.form .search-icon {
+    padding-right: 15px;
+}
+
+/* banner Section CSS Ends here */
+
+/* Popular Section Css Start Here */
+.popular-section {
+    width: 1250px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.left-text {
+    margin-right: 50px;
+}
+
+.left-text h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.left-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 15px 0px;
+}
+
+.left-text ul li {
+    color: rgb(19 19 24);
+    font-size: 15px;
+    line-height: 26px;
+    width: 485px;
+    margin: 15px 0px;
+}
+
+.left-text ul {
+    margin-left: 17px;
+}
+
+.left-text .btn {
+    width: 145px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background: #FF5400;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 67px;
+}
+
+/* Destination CSS Start Here */
+.destination-section {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.destination-title {
+    width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination-title h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-title p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    line-height: 26px;
+    width: 618px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img {
+    position: relative;
+}
+
+.img h2 {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    color: #fff;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* Popular Section css Ends Here */
+
+/* choose us section css start here */
+.choose-us-section {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.text h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    font-weight: 800;
+}
+
+.text p {
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.box-wrapper {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-wrapper img {
+    width: 60px;
+}
+
+.box-3 img {
+    width: 60px;
+}
+
+.card-box,
+.box-3 {
+    width: 570px;
+    height: 285px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 25px;
+    padding: 25px;
+}
+
+.card-bg {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-box h2,
+.box-3 h2 {
+    margin: 25px 0px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-box p,
+.box-3 p {
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.box-3-bg {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 25px auto;
+}
+
+/* choose us section css ends here */
+
+
+/* Discount section css Start here */
+.discount-section {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+    margin-top: 95px;
+}
+
+.content h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    line-height: 26px;
+    width: 620px;
+    margin: 0 auto;
+}
+
+.discount-banner {
+    background-image: url(./Images/Group\ 39.png);
+    width: 1250px;
+    height: 534px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+}
+
+.banner-2 {
+    background-image: url(./Images/Group\ 40.png);
+    width: 1250px;
+    height: 534px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+}
+
+.top-banner {
+    width: 420px;
+    height: 280px;
+    background-color: #ffffffe3;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    border-radius: 5px;
+    padding: 65px;
+}
+
+.left-side {
+    width: 420px;
+    height: 280px;
+    background-color: #ffffffe3;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    border-radius: 5px;
+    padding: 65px;
+}
+
+.icon-text .icon {
+    color: #FF5400;
+    padding-right: 10px;
+}
+
+.icon-text .text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.top-text-title {}
+
+.top-text-title h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 25px 0px;
+}
+
+.top-text-title p {
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.top-text-title .btn {
+    width: 145px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.category-button {
+    width: 1250px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.category-button .btn {
+    width: 130px;
+    height: 36px;
+    border-radius: 4px;
+    background: #FF5400;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Discount section css ends here */
+
+/* Video Section Css Start here */
+.video-text-section {
+    width: 1250px;
+    margin: 80px auto;
+    display: flex;
+}
+
+.left-text h2 {
+    color: #131318;
+    font-size: 40px;
+    width: 450px;
+}
+
+/* Video Section CSS Ends Here */
+
+/* Newslatter Section CSS Start Here */
+.news-latter-section {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-content {
+    border: 1px solid orange;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.left-content h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.left-content p {
+    width: 355px;
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 15px 0px;
+}
+
+.left-content input {
+    width: 430px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 15px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.left-content .btn-subs {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Footer section css start here */
+.footer-section {
+    width: 100%;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 120px;
+    padding: 100px 0px;
+}
+
+.logo-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-part h2 {
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+    margin-left: 15px;
+}
+
+.logo-part span {
+    color: #FF5400;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.last-part hr {
+    width: 800px;
+    margin: 35px auto;
+}
+
+.content-part p {
+    width: 725px;
+    margin: 0 auto;
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.social-icon .icon {
+    padding-right: 30px;
+    font-size: 25px;
+    margin-top: 28px;
+}
+
+.last-part h2 {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* Footer Section CSS Ends Here */
+
+/* Newslatter section CSS End here */
+
+
+
+
+
+/* Responsive Part CSS start here */
+
+@media screen and (max-width: 576px) {
+    .menu-section .menu {
+        display: block;
+    }
+
+    .logo-section {
+        width: 380px;
+        margin: 0 auto;
+    }
+}
+
+/* Responsive CSS Ends here /*
