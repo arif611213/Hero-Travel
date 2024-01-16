@@ -756,6 +756,103 @@
         width: 350px;
     }
     /* Choose Us section End */
+
+    /* Deals Section Resposive CSS start */
+    .discount-section {
+        width: 365px;
+    }
+    .content{
+
+    }
+    .content h2 {
+        color: #131318;
+        font-size: 20px;
+    }
+    .content p {
+        width: 385px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .discount-banner {
+        width: 335px;
+        height: 500px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    .top-banner {
+        width: 273px;
+        height: 370px;
+        padding: 15px;
+        position: absolute;
+        top: 84px;
+        right: 16px;
+    }
+    .icon-text {
+        width: 176px;
+
+    }
+    .icon-text .first{
+        display: block;
+    }
+    .second{
+        display: flex;
+        
+    }
+    .top-text-title h2 {
+        color: #131318;
+        font-size: 20px;
+    }
+    .top-text-title p {
+        width: 280px;
+        color: #5A5A5D;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .left-side {
+        width: 273px;
+        height: 370px;
+        background-color: #ffffffe3;
+        position: absolute;
+        top: 84px;
+        left: 17px;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    .category-button .btn{
+        display: none;
+    }
+    /* text and video creation responsive css */
+    .left-text{
+
+    }
+    .video-text-section{
+        display: flex;
+    }
+    .left-text h2 {
+        color: #131318;
+        font-size: 20px;
+        width: 247px;
+    }
+    .left-text p{
+
+    }
+    .left-text ul{
+
+    }
+    .left-text ul li{
+
+    }
+
+
+    /* text and video end */
+    
+
+
+
+    /* Deals Section Responsive CSS End */
 }
 
 /* Responsive CSS Ends here /*
