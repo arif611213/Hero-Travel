@@ -605,10 +605,32 @@
     .menu-section .menu {
         display: block;
     }
+    .menu-section ul{
+        display: none;
+    }
 
-    .logo-section {
+    /* .logo-section {
         width: 380px;
         margin: 0 auto;
+    } */
+    .banner-bg {
+        width: 550px;
+        /* height: 526px; */
+    }
+    .form input, .select-item {
+        display: block;
+        margin: 15px auto;
+        width: 452px;
+        padding-bottom: 15px;
+    }
+    .form {
+        width: 550px;
+        height: 550px;
+    }
+    .form .select-item {
+        display: block;
+        width: 490px;
+        padding-bottom: 15px;
     }
 }
 
